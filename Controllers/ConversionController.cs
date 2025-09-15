@@ -8,7 +8,7 @@ namespace MetricSystem.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View();  // 👈 Looks for Views/Conversion/Index.cshtml
+            return View(); 
         }
 
         [HttpPost]
