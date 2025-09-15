@@ -1,0 +1,7 @@
+C:\Users\garik\Desktop\MetricSystem\publish\MetricSystem.exe
+C:\Users\garik\Desktop\MetricSystem\publish\appsettings.Development.json
+C:\Users\garik\Desktop\MetricSystem\publish\appsettings.json
+C:\Users\garik\Desktop\MetricSystem\publish\MetricSystem.dll
+C:\Users\garik\Desktop\MetricSystem\publish\MetricSystem.deps.json
+C:\Users\garik\Desktop\MetricSystem\publish\MetricSystem.runtimeconfig.json
+C:\Users\garik\Desktop\MetricSystem\publish\MetricSystem.pdb

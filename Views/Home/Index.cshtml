@@ -1,49 +1,8 @@
-﻿@model MetricSystem.Models.FSConversionModel 
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
 
- 
-
-@{ 
-
-    ViewData["Title"] = "MetricSystem"; 
-
-} 
-
- 
-
-<h1><b>Convert Fahrenheit to Celsius</b></h1> 
-
- 
-
-<form asp-action="Index" method="post"> 
-
-    <div asp-validation-summary="All"></div> 
-
- 
-
-    <div> 
-
-        <label asp-for="FahrenheitValue">Fahrenheit Value:</label> 
-
-        <input asp-for="FahrenheitValue" style="width:300px";/> 
-
-    </div> 
-
- 
-
-    <div> 
-
-        <label>Celsius Value:</label> 
-
-        <input value="@(ViewBag.Celsius == null ? "" : ViewBag.Celsius.ToString())" readonly style="width:300px"; /> 
-
-    </div> 
-
- 
-
-    <button type="submit">Convert</button> 
-
-    <button><a asp-action="Index">Clear</a></button> 
-
-</form> 
-
- 
+<div class="p-5 text-center bg-light rounded-3 shadow">
+    <h1 class="display-5 fw-bold">Welcome to Metric System</h1>
+    <p class="lead">Easily convert from British system to international metric system.</p>
+</div>
